@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Navbar.css";
 function Navbar(){
-
+// menuOpen= is the mobile menu open right now?(true/false)
     const [menuOpen, setMenuOpen] =useState(false);
     function toggleMenu(){
         setMenuOpen(!menuOpen);
